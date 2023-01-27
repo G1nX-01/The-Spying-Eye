@@ -1,16 +1,35 @@
 <head>
 <title>The Spying Eye</title>
 <link rel="stylesheet" href="https://theretrosimulatorstimulator.neocities.org/center.css">
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
 <link rel="icon" type="image/x-icon" href="eye.ico">
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=63d355248c889d0019f9c85c&product=inline-share-buttons&source=platform" async="async"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<style>
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+html {
+  animation: fadeInAnimation ease 2s
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+</style>
 <div class="center">
 <center>
   <div id="container"><h2 id="doxtext" class="rcorners2 scaryfontwoo"></h2></div>
   <p>This stuff I just showed you is what <i><a href="https://edition.cnn.com/2018/03/26/opinions/data-company-spying-opinion-schneier/index.html">all</a></i> major tech companies know about you.</p>
   <p><b>Scary, huh?</b></p>
+  <p><a href="list.html">You may not believe this... but there's even MORE data they get from you</a>.</p>
   <p>If you don't want to get spied like this, be sure to go to your account settings every time you create one somewhere, and disable all stuff that you believe spies you.</p>
   <p>The service I used to get all this info is used a lot by Amazon, for example.</p>
   <p>Don't believe me, huh? <a href="https://ipapi.co/"> Check it yourself</a>. Scroll down to where it says "Trusted by".</p>
@@ -22,4 +41,5 @@
   </center>
 </div>
 <div class="sharethis-inline-share-buttons"></div>
+</script>
 </head>
